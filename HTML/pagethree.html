@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+  Author: Simranjit Singh
+  Course: HTML and CSS (H2C)
+-->
+
 <html lang="en" dir="ltr">
 
 <head>
@@ -9,8 +14,110 @@
 <body>
   <h1>Welcome</h1>
   <p>This is a webpage, a minimalist <br> version but still This is a webpage, <br> a minimalist version but still</p>
-  <img src="" alt="">
+
+  <!--Beginning of form-->
+  <form action="pagetwo.html" method="post" autocomplete="on">
+    <table>
+
+      <!--Text input fields-->
+      <tr>
+        <td>
+          <label>Username:</label>
+        </td>
+        <td>
+          <input type="text" name="" placeholder="Username">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label>Password:</label>
+        </td>
+        <td>
+          <input type="password" name="" placeholder="Password">
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--Checkbox input fields-->
+      <tr>
+        <td colspan="2">
+          <label>Interests:</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Sports
+        </td>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Entertainment
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Dining
+        </td>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Art
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--Radio input fields-->
+      <tr>
+        <td colspan="2">
+          <label>Gender:</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="radio" name="gender" placeholder="male">Male
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="radio" name="gender" placeholder="female">Female
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="radio" name="gender" placeholder="other">Other
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--Textarea input field-->
+      <tr>
+        <td><label>Additional <br>information:</label></td>
+        <td colspan="2"><textarea name="additional_info" rows="3" cols="20" placeholder="Enter additional information here..."></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--From submission button-->
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" name="sign_up" value="Sign Me Up!">
+        </td>
+      </tr>
+    </table>
+  </form>
+
   <hr>
+  <!--Navigation link-->
   <a href="index.html">Back to Home</a>
 
 </body>
