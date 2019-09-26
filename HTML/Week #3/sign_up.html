@@ -7,26 +7,134 @@
 
   <!--Link to CSS file-->
   <link rel="stylesheet" href="common_style.css">
-  <link rel="stylesheet" href="home_style.css">
+  <link rel="stylesheet" href="sign_up_style.css">
 
   <!--Link to Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nixie+One&display=swap" rel="stylesheet">
 
   <!--Title to appear in browser-->
-  <title></title>
-
-  <!--Visible elements of the page built here-->
+  <title>Sign Up</title>
 </head>
+
+<!--Visible elements of the page built here-->
 
 <body>
 
   <!--Main page content-->
+  <h1>Sign Up</h1>
 
+  <p>Our monthly newsletter is our attempt to bring the animation-lovers' community together and discuss trending topics in the industry. We also share news from Pixar and the latest updates on ongoing projects and a little bit of what we have in our
+    pipeline. And yes, there is a new character design in each issue!</p><br>
+  <h3>Please fill in the form below to subscribe to our newsletter!</h3>
+
+  <!--Subscription form-->
+  <form class="sub_form" action="thankyou.html" method="post">
+    <table>
+      <!--User's full name-->
+      <tr>
+        <td><label for="firstname">First Name:</label></td>
+        <td><input type="text" name="firstname" placeholder="John" required></td>
+      </tr>
+      <tr>
+        <td><label for="lastname">Last Name:</label></td>
+        <td><input type="text" name="lastname" placeholder="Doe"></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--User's email and confirmation-->
+      <tr>
+        <td><label for="email1">Email:</label></td>
+        <td><input type="email" name="email1" placeholder="user@domain.com" required></td>
+      </tr>
+      <tr>
+        <td><label for="email2">Confirm Email:</label></td>
+        <td><input type="email" name="email2" placeholder="user@domain.com" required></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--User's gender-->
+      <tr>
+        <td colspan="2">
+          <label for="gender"><strong>Gender:</strong></label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="radio" name="gender" placeholder="male">Male
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="radio" name="gender" placeholder="female">Female
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="radio" name="gender" placeholder="other">Other
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--User's interests-->
+      <tr>
+        <td colspan="2">
+          <label for="interests"><strong>Interests:</strong></label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Animation Industry
+        </td>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Character Design
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Pixar Creators
+        </td>
+        <td>
+          <input type="checkbox" name="interests" placeholder="">Behind-The-Scenes
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--User's motivation-->
+      <tr>
+        <td><label for="motivational_info">Motivation for joining:</label></td>
+        <td colspan="2"><textarea name="motivational_info" rows="5" cols="25" placeholder="Please let us know what else you would like to see in our newsletters..."></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+
+      <!--From submission button-->
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" name="sign_up" value="Sign Me Up!">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+  <br>
+  <hr><br>
 
   <!--Page navigation menu-->
-  <div class="nav">
+  <div class="nav_bottom">
     <a href="home.html">Home</a>
-  </div>
+  </div><br><br><br><br>
 
 </body>
 

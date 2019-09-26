@@ -1,4 +1,28 @@
 body {
   font-family: 'Nixie One', cursive;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  width: 80%;
+  align: center;
+  position: absolute;
+  left: 10%
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+a:active {
+  color: #00FF00;
+  background-color: white;
+}
+
+.nav_bottom {
+  text-align: center;
 }

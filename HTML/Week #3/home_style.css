@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+td {
+  width: 40%;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.test {
+  align-content: center;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.nav_bottom {
+  width: 80%;
+}

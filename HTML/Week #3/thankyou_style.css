@@ -1,0 +1,19 @@
+.hero_image {
+  background-image: url("http://7desktopthemes.com/images/list-of-all-pixar-characters-wallpaper-3.jpg");
+  background-color: #FFFFFF;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero_text {
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-20%, -60%);
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+}
