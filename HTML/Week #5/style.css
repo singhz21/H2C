@@ -1,0 +1,122 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  background-color: #FFFFFF;
+  line-height: 1.6;
+  position: absolute;
+}
+
+.header {
+  width: 50%;
+  position: relative;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  background-color: #E0E0E0;
+  font-size: 1.23em;
+  height: 4.45em;
+  margin: 1.38em 0em;
+  position: sticky;
+  top: 0em;
+}
+
+section {
+  background-color: #FAFAFA;
+  margin: 1.38em 0em;
+  padding: 1.67em 2.77em;
+}
+
+#about {
+  background-color: #FFFFFF;
+}
+
+footer>section {
+  background-color: #E0E0E0;
+  margin: 1.38em 0em;
+}
+
+p {
+  padding: 0.56em 1.38em 0em 1.38em;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav>a {
+  padding: 0.56em 2.77em;
+  position: relative;
+  top: 1.38em;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: grey;
+}
+
+a:active {
+  color: #FFFFFF;
+  background-color: #E5E5E5;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.col1 {
+  width: 20%;
+  text-align: center;
+}
+
+.col2 {
+  width: 20%;
+}
+
+.col3 {
+  width: 60%;
+  text-align: justify;
+  padding: 1.67em;
+}
+
+.empty {
+  height: 2.23em;
+}
+
+#sign_up_table {
+  text-align: left;
+  width: 40%;
+}
+
+.font {
+  font-family: 'Josefin Sans';
+}
+
+.some {
+  width: 1.5em;
+  float: left;
+  left: 2.77em;
+  padding: 0em 6.5em;
+}
+
+#address {
+  position: relative;
+  height: 21.11em;
+}
+
+iframe {
+  position: relative;
+  right: -16.78em;
+  top: -6.0em;
+  width: 45em;
+}
+
+#social-media {
+  height: 2.0em;
+}

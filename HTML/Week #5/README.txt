@@ -1,0 +1,7 @@
+Major Assignment #2, 20p - week 40, 30.9-5.10.2019
+
+Create a one-pager similar to the small assignments 3 and 4, where you have a navigation part followed by three different sections and a footer part. Everything is stacked on top of each other. The first and topmost section, following your navigation, is the homepage with the same content as you had in index.html or video.html, your choice. The next section is called the about section and it could be very similar to the gallery.html page we've created earlier. The third and final section is the sign-up page very similar to the sign-up page we've created earlier. The last part of the one-pager is the footer where you have three subsections following each other on one row. The first subsection contains your digital contact info like emails for support, inquiries, etc. The second subsection contains your visiting address info like street and city with zip-codes (posti numero). The last subsection contains links (either logo images or text links) to your social media channels like e.g. Facebook, Twitter, and Youtube.
+
+For layout purposes you can use your choice of positioning or floating or both.
+
+You will have to create in the nav bar fully working links to each of the three sections. I have not showed you how to do this but you'll find out on your own by checking out how to use anchors on webpages.
